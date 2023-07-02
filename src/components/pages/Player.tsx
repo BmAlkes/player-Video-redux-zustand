@@ -16,9 +16,16 @@ const Player = () => {
         </div>
         <main className="relative flex overflow-hidden rounded-lg border border-zinc-800 bg-zinc-900 shadow">
           <div className="flex-1">video</div>
-          <aside className="w-80 border-l border-zinc-800 bg-zinc-900 h-[900px]"></aside>
+          <aside className="w-80 border-l border-zinc-800 bg-zinc-900 h-[900px]">
+            video
+          </aside>
         </main>
       </div>
+      <footer>
+        <div className="flex items-center justify-between">
+          <h4>by bmalkes@</h4>
+        </div>
+      </footer>
     </div>
   );
 };

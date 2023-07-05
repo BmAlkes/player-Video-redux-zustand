@@ -1,8 +1,11 @@
 import { configureStore, createSlice } from "@reduxjs/toolkit";
 import { TypedUseSelectorHook, useSelector } from "react-redux";
+import player from "./slicers/player";
 
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+    player,
+  },
 });
 
 export type RootState = ReturnType<typeof store.getState>;
